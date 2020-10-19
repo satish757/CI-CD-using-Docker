@@ -14,7 +14,7 @@ pipeline {
      stage('checkout') {
           steps {
            
-               git url: 'https://github.com/madhavi0891/game-of-life.git'
+               git url: 'https://github.com/inspired123/CI-CD-using-Docker.git'
            
        }
        }
