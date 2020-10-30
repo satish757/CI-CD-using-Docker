@@ -1,5 +1,5 @@
 pipeline {
-   agent any {
+   agent any
    tools {git 'git'}
    environment
     {
@@ -37,4 +37,4 @@ pipeline {
      
 }
 }
-} 
+ 
