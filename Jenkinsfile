@@ -5,7 +5,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'run-hello-world', url: 'https://github.com/devops4solutions/CI-CD-using-Docker.git'
+                git branch: 'run-hello-world', url: 'https://github.com/satish757/CI-CD-using-Docker/blob/run-hello-world/Jenkinsfile'
              
           }
         }
