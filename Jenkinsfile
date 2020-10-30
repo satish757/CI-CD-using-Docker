@@ -5,8 +5,8 @@ pipeline {
     {
        VERSION = "${BUILD_NUMBER}"
        REPOSITORY_PREFIX='madavi'
-       registry = "amm123/tomcat"
-       registryCredential = 'dockerhub'
+       registry = "9492489757/satish1"
+       registryCredential = 'docker'
        dockerImage = ''
    }
    
